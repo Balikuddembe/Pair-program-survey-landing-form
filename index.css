@@ -17,8 +17,10 @@
 
  #description {
      color: white;
-     font-size: 13;
+     font-size: 15;
      text-align: center;
+     font-family: inherit;
+     font-size: inherit;
  }
 
  #survey-form {
@@ -71,8 +73,7 @@
      font-size: inherit;
  }
 
- input[type="submit"] {
-
+ input[type="submit" ]{
      width: 71%;
      margin-left: 80px;
      background: greenyellow;
