@@ -1,3 +1,8 @@
+ .login-block {
+     float: right;
+     padding: 10px;
+ }
+
  .form1 {
      justify-content: center;
      width: 60%;
@@ -7,6 +12,8 @@
  body {
      background-color: skyblue;
      padding: 10px;
+     background-image: url('https://images.unsplash.com/photo-1601751839329-dd71d6428a5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFwdG9wJTIwd2FsbHBhcGVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+     background-attachment: fixed;
  }
 
  #title {
@@ -17,14 +24,13 @@
 
  #description {
      color: white;
-     font-size: 15;
      text-align: center;
-     font-family: inherit;
-     font-size: inherit;
+     font: 100px;
  }
 
  #survey-form {
      background-color: rgb(40, 55, 71);
+
      width: 80%;
      height: 85%;
      margin: auto;
@@ -40,6 +46,7 @@
      font-family: inherit;
      font-size: inherit;
      padding: 2px;
+
  }
 
  #number,
@@ -48,20 +55,21 @@
      margin: 10px 10px;
      width: 70%;
      margin-left: 80px;
-     height: 40px;
+     height: 20px;
      font-family: inherit;
      font-size: inherit;
      border-radius: 2px;
      border: none;
-     padding: 2px;
+     padding: 10px;
  }
 
  #dropdown {
      margin-left: 80px;
-     width: 71%;
+     width: 72.9%;
      height: 40px;
      font-family: inherit;
      font-size: inherit;
+     padding: 10px;
  }
 
  .area {
@@ -73,7 +81,7 @@
      font-size: inherit;
  }
 
- input[type="submit" ]{
+ input[type="submit"] {
      width: 71%;
      margin-left: 80px;
      background: greenyellow;

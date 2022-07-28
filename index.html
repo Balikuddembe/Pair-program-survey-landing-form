@@ -10,9 +10,14 @@
 </head>
 
 <body>
+    <span class="login-block">
+        <button id="login">login</button>
+        <button id="create-account">Creat Account</button>
+    </span>
     <div class="form1">
 
         <h1 id="title">Survey-landing-form</h1>
+
         <p id="description">Thank you for taking the time to help us improve the platform </p>
 
         <form id="survey-form">
@@ -23,10 +28,10 @@
             <label id="email-label">Email</label><br />
             <input type="email" id="email" value="" placeholder="Enter your email" required /><br />
             <label id="number-label">Age</label><br />
-            <input type="number" id="number" value="" placeholder="Age" min="1" max="10" />
+            <input type="number" id="number" value="" placeholder="Age" min="13" max="40" />
             <p class="headings">Choose your favourite technology taught at Microverse</p>
             <select id="dropdown">
-                <option disabled="" selected="" value="">Select current role</option>
+                <option disabled="" selected="" value="">Select favourite technology</option>
                 <option value="html">HTML</option>
                 <option value="css">CSS</option>
                 <option value="js">JavaScript</option>
@@ -47,6 +52,8 @@
                 <input type="checkbox" value="Forums">Forums<br />
                 <input type="checkbox" value="Support">Support<br />
                 <input type="checkbox" value="Student">Student Success<br />
+                <input type="checkbox" value="Student">Group Collaboration<br />
+                <input type="checkbox" value="Student">Part-time Microverse Jobs<br />
             </div>
             <p class="headings">Any Comments or Suggestions?</p>
             <textarea class="area" rows="5" cols="33" placeholder="Enter your comment here..."></textarea><br><br>
