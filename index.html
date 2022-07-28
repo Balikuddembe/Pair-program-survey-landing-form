@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="form1">
+
+        <h1 id="title">Survey-landing-form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform </p>
+
+        <form id="survey-form">
+
+            <label id="name-label">Name</label>
+            <input type="text" id="name" value="" placeholder="Enter you name" required /><br />
+
+            <label id="email-label">Email</label><br />
+            <input type="email" id="email" value="" placeholder="Enter your email" required /><br />
+            <label id="number-label">Age</label><br />
+            <input type="number" id="number" value="" placeholder="Age" min="1" max="10" />
+            <p class="headings">Choose your favourite technology taught at Microverse</p>
+            <select id="dropdown">
+                <option disabled="" selected="" value="">Select current role</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+                <option value="ror">Ruby on Rails</option>
+                <option value="react">React</option>
+            </select>
+            <div class="headings">
+                <p>Would you recommend Microverse to a friend?</p>
+                <input type="radio" id="Definitely" name="d" value="Definitely">
+                <label for="">Definitely</label><br>
+                <input type="radio" id="maybe" name="d" value="maybe">
+                <label for="">May be</label><br>
+                <input type="radio" id="notsure" name="d" value="notsure">
+                <label for="">Not sure</label><br />
+                <p>What would you want to be improved? (Check all that apply)</p>
+                <input type="checkbox" value="front">FrontEnd Projects<br />
+                <input type="checkbox" value="back">BackEnd Projects<br />
+                <input type="checkbox" value="Forums">Forums<br />
+                <input type="checkbox" value="Support">Support<br />
+                <input type="checkbox" value="Student">Student Success<br />
+            </div>
+            <p class="headings">Any Comments or Suggestions?</p>
+            <textarea class="area" rows="5" cols="33" placeholder="Enter your comment here..."></textarea><br><br>
+
+            <input type="submit" id="submit"><br /><br />
+        </form>
+    </div>
+</body>
+
+</html>
